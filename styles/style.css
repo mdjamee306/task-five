@@ -1,0 +1,93 @@
+/* common shared styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner section start */
+.banner-container {
+    background-image: url('../images/banner/banner3.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    /* padding:230px 230px 360px 860px ; */
+}
+
+.content {
+    padding: 230px 230px 360px 860px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    padding: 21px 25px;
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+
+/* main section start */
+.img {
+    width: 500px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0px 200px;
+    gap: 100px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+.text-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
