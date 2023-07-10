@@ -48,7 +48,7 @@
 
 /* main section start */
 .img {
-    width: 500px;
+    width: 450px;
 }
 
 .main-section {
@@ -56,7 +56,7 @@
     justify-content: center;
     margin-top: 100px;
     padding: 0px 200px;
-    gap: 100px;
+    gap: 70px;
 }
 
 .text {
@@ -90,4 +90,100 @@ ul li:before {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* my plans section start */
+.section-title {
+    text-align: center;
+    margin-top: 70px;
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 45px 106px
+}
+
+.mindset-section {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.mindset-div {
+    background-image: url('../images/gradient1.png');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.logo-title {
+    text-align: center;
+}
+
+.logo-title-description {
+    text-align: center;
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* footer section start */
+footer {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.foot-title-left {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 500px;
+}
+
+.footer-description {
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-footer{
+    height: 400px;
+    background-color: black;
+}
+.left-side{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    width: 500px;
+    margin-top: 200px;
+}
+.main-footer{
+    display: flex;
 }
